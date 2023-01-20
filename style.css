@@ -1,0 +1,104 @@
+body{
+    font-family: 'Roboto';
+    font-size: 1.1em;
+    color: rgb(28, 96, 223);
+    background-color: rgb(250, 246, 241);
+}
+
+::selection {
+    background: rgb(236, 188, 149); /* WebKit/Blink Browsers */
+  }
+::-moz-selection {
+    background:rgb(236, 188, 149); /* Gecko Browsers */
+  }
+
+p{
+    margin-bottom: 12.5px;
+    line-height: 1.3em;
+}
+
+ul{
+    list-style-type: circle;
+    margin-left: 12.5px;
+}
+
+
+h1 {
+    font-size: 2.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: overline solid 5px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-style: italic;
+    font-size: 1.25em;
+    text-transform: lowercase;
+}
+
+
+header{
+    margin-left: 5%; 
+    max-width: 800px;
+    margin-top: 5%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+nav > a{
+    margin-top: 10px;
+    margin-right: 15px;
+    text-transform: underline;
+    color: rgb(28, 96, 223);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+.container{
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 75px;
+    max-width: 700px;
+}
+
+.data, .design{
+    display: grid;
+    grid-gap: 5px;
+}
+
+.data{
+    grid-template-columns: 1fr 3fr;
+}
+
+.design{
+    grid-template-columns: 1fr 1fr;
+}
+
+.data-img{
+    max-width: 250px;
+    border: 2px solid rgb(28, 96, 223);
+    margin: 10px 0px;
+}
+
+.data-div{
+    /* margin-top: 5px;
+    margin-left: 10px; */
+    margin: 0px 0px 15px 10px;
+}
+
