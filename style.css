@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto';
     font-size: 1.1em;
     color: rgb(28, 96, 223);
+    /* color: rgb(248, 34, 34); */
     background-color: rgb(250, 246, 241);
 }
 
@@ -74,7 +75,7 @@ h3{
 header{
     margin-left: 5%; 
     margin-top: 5%;
-    padding: 25px 0 30px 0;
+    padding: 15px 0 25px 0;
     background-color: rgb(250, 246, 241);
     width: 100%;
     position:sticky;
@@ -104,7 +105,7 @@ nav > a, nav > a:visited, nav > a:active{
     height: 100%;
     margin-left: 5%;
     margin-top: 75px;
-    max-width: 700px;
+    max-width: 47.5%;
 }
 
 .data, .design{
