@@ -5,6 +5,30 @@ body{
     background-color: rgb(250, 246, 241);
 }
 
+#loadpage{
+    position: fixed;
+    background-color: rgb(250, 246, 241);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000000;
+}
+    
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    z-index: 100000000000000000000;
+    width: 125px;
+    height: 125px;
+    margin: -62.5px 0 0 -62.5px; 
+    border: 10px solid rgb(142, 179, 247);
+    border-radius: 50%;
+    border-top: 10px solid rgb(28, 96, 223);
+    -webkit-animation: spin 1.5s infinite;
+    animation: spin 1.5s infinite;
+}
+
 ::selection {
     background: rgb(236, 188, 149); /* WebKit/Blink Browsers */
   }
@@ -15,6 +39,10 @@ body{
 p{
     margin-bottom: 12.5px;
     line-height: 1.3em;
+}
+
+a:active, a:visited{
+    color: rgb(103, 62, 199);
 }
 
 ul{
@@ -45,8 +73,13 @@ h3{
 
 header{
     margin-left: 5%; 
-    max-width: 800px;
     margin-top: 5%;
+    padding: 25px 0 30px 0;
+    background-color: rgb(250, 246, 241);
+    width: 100%;
+    position:sticky;
+    top: 0;
+    z-index: 1;
 }
 
 nav{
@@ -61,14 +94,11 @@ nav > a{
     margin-top: 10px;
     margin-right: 15px;
     text-transform: underline;
+}
+
+nav > a, nav > a:visited, nav > a:active{
     color: rgb(28, 96, 223);
 }
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
 
 .container{
     height: 100%;
@@ -97,8 +127,6 @@ nav > a{
 }
 
 .data-div{
-    /* margin-top: 5px;
-    margin-left: 10px; */
     margin: 0px 0px 15px 10px;
 }
 
@@ -112,5 +140,25 @@ nav > a{
 .gallery-img{
     width: 100%;
     height: 100%;
-    border: 2px solid rgb(28, 96, 223;
+    border: 2px solid rgb(28, 96, 223);
 }
+
+#books, #articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.review-h3{
+    margin-bottom: 7.5px;
+}
+
+.review{
+    font-size: 0.9em;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
