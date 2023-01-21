@@ -18,6 +18,10 @@ p{
     line-height: 1.3em;
 }
 
+ul > li{
+    margin-left: 5px;
+}
+
 a:active, a:visited{
     color: rgb(103, 62, 199);
 }
@@ -55,7 +59,7 @@ header{
     margin-top: 5%;
     padding: 15px 0 25px 0;
     background-color: rgb(250, 246, 241);
-    max-width: 47.5%;
+    max-width: 90%;
     position:sticky;
     top: 0;
     z-index: 1;
@@ -79,7 +83,7 @@ nav > a{
     height: 100%;
     margin-left: 5%;
     margin-top: 75px;
-    max-width: 47.5%;
+    max-width: 90%;
 }
 
 .data, .design{
@@ -162,3 +166,11 @@ nav > a{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
+@media screen and (min-width: 700px){
+
+    .container, #header{
+        max-width: 47.5%;
+    }
+
+}
