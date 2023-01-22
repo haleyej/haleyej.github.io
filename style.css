@@ -167,7 +167,7 @@ nav > a{
     100% { transform: rotate(360deg); }
   }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 650px){
 
     .container, #header{
         max-width: 47.5%;
