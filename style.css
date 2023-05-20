@@ -5,6 +5,10 @@ body{
     background-color: rgb(250, 246, 241);
 }
 
+html {
+    scroll-padding-top: 200px;
+  }
+
 ::selection {
     background: rgb(255, 182, 123); /* WebKit/Blink Browsers */
   }
