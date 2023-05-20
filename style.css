@@ -9,6 +9,10 @@ html {
     scroll-padding-top: 200px;
   }
 
+footer {
+    height: 20px;
+}
+
 ::selection {
     background: rgb(255, 182, 123); /* WebKit/Blink Browsers */
   }
@@ -174,6 +178,10 @@ nav > a{
 
     .container, #header{
         max-width: 47.5%;
+    }
+
+    footer{
+        height: 50px;
     }
 
 }
