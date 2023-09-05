@@ -17,6 +17,7 @@ footer {
 ::selection {
     background: rgb(255, 182, 123); /* WebKit/Blink Browsers */
   }
+
 ::-moz-selection {
     background:rgb(255, 182, 123); /* Gecko Browsers */
   }
@@ -200,7 +201,7 @@ nav > a {
 
 @media screen and (min-width: 650px) {
 
-    .container, #header{
+    .container, #header {
         max-width: 50%;
     }
 
