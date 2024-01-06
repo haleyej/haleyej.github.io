@@ -55,7 +55,7 @@ ul {
 }
 
 h1 {
-    font-size: 2.1em;
+    font-size: 2.27em;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -90,6 +90,7 @@ nav {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-start;
+    font-size: 0.9em;
 }
 
 nav > a {
