@@ -3,8 +3,9 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1.1em;
     color: rgb(28, 96, 223);
+    background-color: rgb(247, 241, 233);background-color: rgb(247, 241, 233);
     /* background-color: rgb(252, 251, 255); */
-    background-color: rgb(233, 233, 233);
+    /* background-color: rgb(233, 232, 235); */
 }
 
 html {
@@ -16,11 +17,11 @@ footer {
 }
 
 ::selection {
-    background: rgb(187, 173, 232); 
+    background: rgb(244, 156, 106); 
   }
 
 ::-moz-selection {
-    background: rgb(187, 173, 232); 
+    background: rgb(244, 156, 106); 
   }
 
 p {
@@ -78,7 +79,7 @@ header {
     padding: 15px 0 25px 0;
     max-width: 90%;
     position: sticky;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(247, 241, 233);
     top: 0;
     z-index: 1;
 }
@@ -175,8 +176,7 @@ nav > a {
 
 #loadpage {
     position: fixed;
-    background-color: rgb(233, 233, 233);
-    /* background-color: rgb(250, 246, 241); */
+    background-color: rgb(247, 241, 233);
     top: 0;
     width: 100%;
     height: 100%;
