@@ -1,9 +1,10 @@
 body {
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 1.1em;
     color: rgb(28, 96, 223);
     /* background-color: rgb(252, 251, 255); */
-    background-color: rgb(250, 246, 241); */
+    background-color: rgb(233, 233, 233);
 }
 
 html {
@@ -15,11 +16,11 @@ footer {
 }
 
 ::selection {
-    background: rgb(255, 182, 123); /* WebKit/Blink Browsers */
+    background: rgb(187, 173, 232); 
   }
 
 ::-moz-selection {
-    background:rgb(255, 182, 123); /* Gecko Browsers */
+    background: rgb(187, 173, 232); 
   }
 
 p {
@@ -75,9 +76,9 @@ header {
     margin-left: 7.5%; 
     margin-top: 7%;
     padding: 15px 0 25px 0;
-    background-color: rgb(250, 246, 241);
     max-width: 90%;
-    position:sticky;
+    position: sticky;
+    background-color: rgb(233, 233, 233);
     top: 0;
     z-index: 1;
 }
@@ -174,7 +175,8 @@ nav > a {
 
 #loadpage {
     position: fixed;
-    background-color: rgb(250, 246, 241);
+    background-color: rgb(233, 233, 233);
+    /* background-color: rgb(250, 246, 241); */
     top: 0;
     width: 100%;
     height: 100%;
