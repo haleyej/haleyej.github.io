@@ -31,6 +31,10 @@ sup {
     font-size: 0.5em;
 }
 
+p + ul {
+    margin-top: -10px;
+}
+
 ul > li {
     margin-left: 5px;
 }
@@ -68,7 +72,7 @@ h3 {
 }
 
 header {
-    margin-left: 5%; 
+    margin-left: 7.5%; 
     margin-top: 7%;
     padding: 15px 0 25px 0;
     background-color: rgb(250, 246, 241);
@@ -94,7 +98,7 @@ nav > a {
 
 .container {
     height: 100%;
-    margin-left: 5%;
+    margin-left: 7.5%;
     margin-top: 75px;
     max-width: 90%;
 }
@@ -129,8 +133,8 @@ nav > a {
 .photo-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    max-width: 650px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px; 
 }
 
 #photos {
@@ -162,10 +166,10 @@ nav > a {
     border-bottom-width: 10px;
     content: "";
     display: block;
-    width: 100px; /* Adjust the width as needed */
-    height: 5px; /* Adjust the height as needed */
-    background-color: rgb(28, 96, 223); /* Adjust the color as needed */
-    margin: 20px 0 10px 0; /* Align the line to the left and add space above it */
+    width: 100px; 
+    height: 5px; 
+    background-color: rgb(28, 96, 223);
+    margin: 20px 0 10px 0; 
 }
 
 #loadpage {
