@@ -112,6 +112,10 @@ nav > a {
     grid-template-columns: 1fr 1fr;
 }
 
+.writing{
+    margin-top: 5%;
+}
+
 .data-img {
     width: 100%;
     border: 2px solid rgb(28, 96, 223);
