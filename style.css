@@ -91,11 +91,11 @@ nav {
     justify-content: flex-start;
     align-content: flex-start;
     font-size: 0.9em;
+    gap: 15px;
 }
 
 nav > a {
     margin-top: 10px;
-    margin-right: 15px;
     text-transform: underline;
 }
 
