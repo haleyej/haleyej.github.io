@@ -74,7 +74,8 @@ h3 {
 }
 
 header {
-    margin-left: 7.5%; 
+    margin-left: auto; 
+    margin-right: auto;
     margin-top: calc(7% - 25px);
     padding: 25px 0 35px 0;
     max-width: 90%;
@@ -101,8 +102,7 @@ nav > a {
 
 .container {
     height: 100%;
-    margin-left: 7.5%;
-    margin-top: 65px;
+    margin: 10px auto auto auto;
     max-width: 90%;
 }
 
@@ -112,7 +112,8 @@ nav > a {
 }
 
 .data {
-    grid-template-columns: 2.5fr 5fr;
+    grid-template-rows: 2fr auto;
+    margin-bottom: 30px;
 }
 
 .design {
@@ -185,14 +186,35 @@ nav > a {
     margin-bottom: 50px;
 }
 
+#fun-facts{
+    margin-top: 25px;
+}
+
+#fun-facts li{
+    margin-top: 10px;
+}
+
 @media screen and (min-width: 650px) {
 
     .container, #header {
         max-width: 50%;
     }
 
+    .container, header {
+        margin-left: 7.5%;
+    }
+
+    .container {
+        margin-top: 2%;
+    }
+
     footer {
         height: 50px;
+    }
+
+    .data {
+        grid-template-columns: 2.5fr 5fr;
+        margin-bottom: 10px;
     }
 
     footer > .container {
