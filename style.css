@@ -14,6 +14,7 @@ html {
 
 footer {
     height: 20px;
+    padding-bottom: 60px;
 }
 
 ::selection {
@@ -102,7 +103,7 @@ nav > a {
 
 .container {
     height: 100%;
-    margin: 10px auto auto auto;
+    margin: 10px auto 50px auto;
     max-width: 90%;
 }
 
@@ -136,8 +137,8 @@ nav > a {
 
 .photo-gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 1fr;
     grid-gap: 5px; 
 }
 
@@ -208,8 +209,9 @@ nav > a {
         margin-top: 2%;
     }
 
-    footer {
-        height: 50px;
+    .photo-gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .data {
@@ -219,7 +221,6 @@ nav > a {
 
     footer > .container {
         margin-top: 25px;
-        padding-bottom: 50px;
     }
 
 }
