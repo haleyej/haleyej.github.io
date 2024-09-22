@@ -183,11 +183,15 @@ nav > a {
     margin-top: 20px;
 }
 
+.teaching li {
+    margin-top: 5px;
+}
+
 #work-blurb {
     margin-bottom: 50px;
 }
 
-#fun-facts{
+#fun-facts, #ug-teaching{
     margin-top: 25px;
 }
 
