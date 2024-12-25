@@ -4,8 +4,6 @@ body {
     font-size: 1.05em;
     color: rgb(28, 96, 223);
     background-color: rgb(247, 241, 233);background-color: rgb(247, 241, 233);
-    /* background-color: rgb(252, 251, 255); */
-    /* background-color: rgb(233, 232, 235); */
 }
 
 html {
@@ -200,32 +198,18 @@ nav > a {
 }
 
 
-/* tooltip exploration*/
+/* tooltips */
 
 .tooltip{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
     background: rgb(28, 96, 223);
     color: rgb(255, 255, 255);
-    font-size: 0.9em;
+    padding: 5px;
     border-radius: 5px;
-    padding: 7px;
-    display: inline-block;
-    position: relative;
-    visibility: hidden;
-    z-index: 1;
-    max-width: 90%;
-}
-
-.gallery-item{
-    position: relative;
-}
-
-.gallery-item:hover .gallery-img{
-    background: rgb(255, 255, 255);
-    opacity: 0.3;
-}
-
-.gallery-item:hover .tooltip{
-    visibility: visible;
 }
 
 
@@ -266,4 +250,8 @@ nav > a {
         margin-top: 25px;
     }
 
+    /* only do tooltip on desktop size */
+    .gallery-item:hover .tooltip{
+        visibility: visible;
+    }
 }
