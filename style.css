@@ -199,6 +199,36 @@ nav > a {
     margin-top: 10px;
 }
 
+
+/* tooltip exploration*/
+
+.tooltip{
+    background: rgb(28, 96, 223);
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    border-radius: 5px;
+    padding: 7px;
+    display: inline-block;
+    visibility: hidden;
+    z-index: 1;
+    max-width: 90%;
+}
+
+.gallery-item{
+    position: relative;
+}
+
+.gallery-item:hover .gallery-img{
+    background: rgb(255, 255, 255);
+    opacity: 0.3;
+}
+
+.gallery-item:hover .tooltip{
+    visibility: visible;
+}
+
+
+
 @media screen and (min-width: 650px) {
 
     h1 {
