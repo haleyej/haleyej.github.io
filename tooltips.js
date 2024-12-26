@@ -1,8 +1,8 @@
 var tooltip = document.querySelectorAll('.tooltip');
 console.log(tooltip);
 
-document.addEventListener('onmousemove', fn, false);
-
+// document.addEventListener('mousemove', fn, false);
+document.onmousemove = fn;
 function fn(e) {
     console.log('mouse move');
     for (var i=tooltip.length; i--;) {
